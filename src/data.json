@@ -1,0 +1,72 @@
+{
+    "fields" : [
+        {
+            "component" : "text",
+            "label": "First Name",
+            "type": "text",
+            "_uid": "d3a9a355035d4bfabc4eb3823f39af18"
+        },
+        {
+            "component" : "text",
+            "label": "Last Name",
+            "type": "text",
+            "_uid": "fced91ae295c01d0354531c5fa9e88ab"
+        },
+        {
+            "component" : "select",
+            "label": "Select your country",
+            "type": "select",
+            "_uid": "417ec6dda690b5609e3fa64a316db0f5",
+            "options": [
+                {
+                    "label": "United States",
+                    "value": "US"
+                },
+                {
+                    "label": "Canada",
+                    "value": "CA"
+                },
+                {
+                    "label": "Mexico",
+                    "value": "MX"
+                }
+            ]
+        },
+        {
+            "component" : "opciones",
+            "label": "Select your age range",
+            "type": "radio",
+            "_uid": "50179e816f0d0c8d5b205e00319bc338",
+            "options": [
+                {
+                    "label": "Under 18",
+                    "value": "under18"
+                },
+                {
+                    "label": "18-24",
+                    "value": "18-24"
+                },
+                {
+                    "label": "25-34",
+                    "value": "25-34"
+                },
+                {
+                    "label": "35-44",
+                    "value": "35-44"
+                },
+                {
+                    "label": "45-54",
+                    "value": "45-54"
+                },
+                {
+                    "label": "55-64",
+                    "value": "55-64"
+                },
+                {
+                    "label": "65+",
+                    "value": "65+"
+                }
+            ]
+        }
+    ]
+}
