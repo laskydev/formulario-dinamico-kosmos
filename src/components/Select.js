@@ -7,7 +7,7 @@ function Select({ data }) {
       <label htmlFor={data._uid}>{data.label}</label>
       <select name={data.uid} id={data.uid} className="w-2/3 rounded-md p-2 text-black">
         {data.options.map((item) => (
-          <option key={item.value} value={item.value}>{item.label}</option>
+          <option className="text-black" key={item.value} value={item.value}>{item.label}</option>
         ))}
       </select>
       <DeleteButton id={data._uid} />
